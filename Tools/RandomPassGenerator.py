@@ -7,16 +7,16 @@ up = "ABCDEFGHIJKLMONPQRSTUVWXYZ"
 # symbols = "*;/.,_-{}[]()"
 
 
-all = low+up
-length = 2
+all = low
+length = 6
 password = "".join(random.sample(all,length))
 
 
 while True:
-    if password == "Ac":
+    if password == "karthi":
+        print(password)
         break
     else:
         password = "".join(random.sample(all,length))
-        print(password)
         
 
