@@ -30,8 +30,8 @@ def send_mail():
     server.ehlo()
     server.starttls()
     server.ehlo()
-
-    server.login('kar333thic@gmail.com','rpdkxqkwxtcvydkk')
+    
+    server.login('kar333thic@gmail.com','gknzfkxhuilciska')
 
     subject = 'Price fell down'
     body = f'check the amazon link : {URL}'
